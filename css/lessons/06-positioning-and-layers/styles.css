@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #171a20;
+  margin: 32px;
+}
+section {
+  margin-bottom: 48px;
+}
+
+.relative-example span {
+  display: inline-block;
+  background: #e5e7eb;
+  padding: 16px;
+}
+
+.relative-example .relative-box {
+  position: relative;
+  top: 20px;
+  background: #93c5fd;
+}
+
+.model-card {
+  position: relative;
+  width: 240px;
+  padding: 48px 24px 24px;
+  background: #f4f4f4;
+}
+.badge {
+  position: absolute;
+  background: #171a20;
+  color: white;
+  padding: 4px 8px;
+  top: 10px;
+  right: 10px;
+}
