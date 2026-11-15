@@ -1,12 +1,83 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Build a small Model 3 page</title>
-  </head>
-  <body>
-    <!-- TODO: Use a page skeleton, headings, navigation links, one image with alt text, and a feature list. -->
-    <main><h1>Model 3 practice</h1></main>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tesla - Model 3</title>
+
+    <style>
+        
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            color: #ff3f3f;
+        }
+
+        
+        .container {
+            width: 400px;
+            margin: 42px auto;
+        }
+
+        
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 32px;
+        }
+
+        .brand {
+            font-size: 15px;
+            font-weight: bold;
+            letter-spacing: 0.4px;
+        }
+
+        .model-link {
+            font-size: 15px;
+            color: #4776c5;
+            text-decoration: underline;
+        }
+
+        
+              .car-card {
+            background-color: white;
+            border: 1px solid #dedede;
+            border-radius: 6px;
+            padding: 20px;
+        }
+
+                          .car-card h1 {
+                      font-size: 30px;
+                  }
+
+                  .car-card p {
+                      font-size: 15px;
+                  }
+
+        .car-card .range {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="header">
+            <div class="brand">TESLA</div>
+            <a class="model-link" href="https://www.youtube.com/@Tesla" target="_blank">
+    Model 3
+</a>
+        </div>
+
+        <div class="car-card">
+            <h1>Model 3</h1>
+            <p>Electric sedan</p>
+            <p class="range">321 mi range</p>
+        </div>
+
+    </div>
+</body>
 </html>
