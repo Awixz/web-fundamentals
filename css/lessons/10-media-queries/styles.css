@@ -1,0 +1,22 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 32px;
+}
+.card {
+  background: #dbeafe;
+  padding: 24px;
+}
+.models {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+@media (min-width: 700px) {
+  .models {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .card {
+    background: red;
+  }
+}
